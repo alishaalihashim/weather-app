@@ -1,0 +1,42 @@
+body{
+	/*background-color: #f59a2ca6;*/
+	background-image: url(download.jpg);
+	background-size: cover;
+	background-position: center;
+/*	height: 100%;
+	width: 100%;*/
+	color: black;
+}
+
+
+
+.input-group{
+	margin: 1em auto;
+	max-width: 500px;
+}
+
+.container{
+	text-align: center;
+}
+/*
+img{
+	height:150px;
+	width: 150px;
+}*/
+
+.temp{
+	font-size: 4em;
+}
+
+.description{
+	font-size: 2em;
+}
+
+.city-name{
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.weather-info{
+	display: none;
+}
