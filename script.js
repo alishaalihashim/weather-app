@@ -6,7 +6,7 @@ function getWeather() {
 	const cityName = document.querySelector("input").value;
 
 	$.ajax({
-		url:`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=cce9030fcb3b710ba651351328b4a722&units=metric`,
+		url:`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=cce9030fcb3b710ba651351328b4a722&units=metric`,
 		success: function(data){
 			console.log(data);
 			document.querySelector(".city-name").innerHTML = data.name;
