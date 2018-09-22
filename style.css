@@ -1,10 +1,7 @@
 body{
-	/*background-color: #f59a2ca6;*/
-	background-image: url(download.jpg);
+	background-image: url(awan1.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-/*	height: 100%;
-	width: 100%;*/
 	color: black;
 }
 
